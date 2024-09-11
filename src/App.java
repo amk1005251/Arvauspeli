@@ -22,7 +22,7 @@ public class App {
                 laskuri--;                                      // muista huolehtia oikeasta arvausmäärästä
             } 
 
-            else if (name.equals(correctName)) {      
+            else if (name.equalsIgnoreCase(correctName)) {      // IgnoreCase pitää olla myös ehtolauseessa jotta koodi toimii oikein
                 System.out.println("Oikein!");
                 }
 
