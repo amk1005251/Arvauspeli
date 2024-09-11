@@ -15,9 +15,11 @@ public class App {
 
         laskuri++;
 
+        // lisätään lopetusmahdollisuus tähän väliin
+
             if (name.equalsIgnoreCase("lopeta")) {
                 System.out.println("Lopetetaan tähän.");
-                laskuri--;
+                laskuri--;                                      // muista huolehtia oikeasta arvausmäärästä
             } 
 
             else if (name.equalsIgnoreCase(correctName)) {
@@ -27,9 +29,6 @@ public class App {
             else {
                 System.out.println("Vaarin!"); 
             }    
-
-            
-           // jatko = rc.nextLine();
 
         }
         while (!name.equalsIgnoreCase(correctName) && !name.equalsIgnoreCase("lopeta"));
