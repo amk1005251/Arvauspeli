@@ -4,4 +4,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ]
+    "terminal.integrated.shellArgs.windows": ["/k", "chcp 65001"],
+
 }

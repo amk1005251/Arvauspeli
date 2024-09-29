@@ -1,12 +1,17 @@
 import java.util.Scanner;
+
+
 public class App {
+
     public static void main(String[] args) throws Exception {
+
+        System.out.println("ä, ö, å, Ä, Ö, Å");
 
         Scanner rc = new Scanner(System.in);
 
         String correctName = "Paavali";
         String name = "";
-        String jatko ="";
+        String jatko = "";                                  // stilisoitiin muotoilua
         int laskuri = 0;
 
         do {
@@ -27,7 +32,7 @@ public class App {
                 }
 
             else {
-                System.out.println("Vaarin!"); 
+                System.out.println("Vaarin! Kirjoitit " + name); 
             }    
 
         }
@@ -35,3 +40,5 @@ public class App {
         System.out.println("Arvasit " + laskuri + " kertaa.");
     }
 }
+
+
